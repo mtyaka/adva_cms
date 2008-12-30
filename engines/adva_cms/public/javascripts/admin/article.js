@@ -82,7 +82,7 @@ var ArticlesList = Class.create({
 	showLink: function(element, link) {
     Element.removeClassName(element, 'sortable');
 		element.removeChild(element.firstChild)
-		link.style.display = null;
+		link.style.display = '';
 	},
 	hideLink: function(element, link) {
     Element.addClassName(element, 'sortable');
